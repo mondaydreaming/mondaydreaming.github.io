@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  font-family: 'Questrial', sans-serif;
+}
+
+.project-images {
+  height: 100px;
+  width: default;
+  border: 4px solid black;
+}
+
+.container {
+}
