@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script type="text/javascript" src="js/jquery.fullPage.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
   <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   <link rel="stylesheet" href="css/index.css">
   <title>a little bit about a few things</title>
 </head>
@@ -64,37 +67,46 @@
             <span style="font-family:pacifico">my work </span></h2>
           </div>
           <div class="six columns">
-            <div class="project">
-              <h4>Podhunt</h4>
-                <a href="http://podhunt-app.herokuapp.com">
-                  <img class ="project-images" src="images/podhunt.jpg">
-                </a>
+            <div class="fade">
+              <div class="project">
+                <h4>Podhunt</h4>
+                  <p>Podhunt is a social site for Podcast lovers. It's a place to discover new shows to listen to and discuss old favourites</p>  
+                  <a href="http://podhunt-app.herokuapp.com">
+                    <img class ="project-images" src="images/podhunt.jpg">
+                  </a>
+                  <hr>
+                  <p><em>Made using: Ruby on rails, Feedjira (gem), Bcrypt (gem), Bootstrap, Amazon Image Upload</em></p>
+                  <p>LINK TO SITE | LINK TO GITHUB</p>
+              </div>
+              <div class="project">
+                <h4>Glucosy</h4>
+                  <a href="http://glucosy.herokuapp.com">
+                    <img class ="project-images" src="images/glucosy.jpg">
+                  </a>
+              </div>
+              <div class="project">
+                <h4>Worldlier</h4>
+                  <a href="http://worldlier.herokuapp.com">
+                    <img class ="project-images" src="images/worldlier.jpg">
+                  </a>
+              </div> 
             </div>
-            <div class="project align-right">
-              <h4>Glucosy</h4>
-                <a href="http://glucosy.herokuapp.com">
-                  <img class ="project-images" src="images/glucosy.jpg">
-                </a>
-            </div>
-            <div class="project">
-              <h4>Worldlier</h4>
-                <a href="http://worldlier.herokuapp.com">
-                  <img class ="project-images" src="images/worldlier.jpg">
-                </a>
-            </div> 
           </div>
         </div>         
       </div>
     </div>
       <!-- CONTACT ME -->
-      <div class="row slide contact-me">
-      <div class="six columns">
-        <h2>a little bit about<span style="font-family:pacifico"> contacting me</span></h2>
-      </div>
-        <div class="four columns">
-          <img class="drawing" src="images/qrcode.png">
+      <div class="slide contact-me">
+      <div class="row container">
+        <div class="six columns">
+          <h2>a little bit about<br><span style="font-family:pacifico"> contacting me</span></h2>
         </div>
+        <div class="six columns">
+          <img class="drawing align-right" src="images/qrcode.png">
+        </div>
+      </div>
     </div>
+
   </div>
 </body>
 </html>
