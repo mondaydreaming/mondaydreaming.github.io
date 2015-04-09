@@ -13,21 +13,33 @@ body {
 
 .drawing {
   height: 50vh;
-  width: default;
-}
-
-.container {
+  width: auto;
+  margin-left: -30%;
 }
 
 .columns {
-  padding-left: 15%;
-  padding-right: 10%;
+/*  padding-left: 15%;
+  padding-right: 10%;*/
+  /*border: 2px solid black;*/
 }
 
-
-@media(min-width:768px) {
-  .ten {
-    padding-right: 40%;
-  }
-
-}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  /*border: 4px solid black;*/
+  padding-left: 6px;
+  padding-right: 6px; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .container {
+      width: 700px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 900px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1152px; } }
