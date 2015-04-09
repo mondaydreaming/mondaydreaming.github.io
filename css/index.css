@@ -23,6 +23,13 @@ p{margin-bottom:1em;}
   border-radius: 0.5em;
 }
 
+.project-icon {
+  height: 10em;
+  width:auto;
+  display:block;
+  margin:auto;
+}
+
 .project-title {
   text-align: center;
 }
