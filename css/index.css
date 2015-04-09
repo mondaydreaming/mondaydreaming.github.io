@@ -14,6 +14,9 @@ h5{
 
 p{margin-bottom:1em;}
 
+.caveat {
+  font-size: 0.75em;
+}
 
 .project-images {
   height: auto;
