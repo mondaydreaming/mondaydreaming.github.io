@@ -18,6 +18,15 @@ p{margin-bottom:1em;}
   font-size: 0.75em;
 }
 
+i {
+  padding-right: 1em;
+  color: steelblue;
+}
+
+i:hover {
+  color: black;
+}
+
 .project-images {
   height: auto;
   width:100%;
