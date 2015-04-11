@@ -115,12 +115,6 @@ i:hover {
   background-color: steeblue;
 }
 
-.columns {
-/*  padding-left: 15%;
-  padding-right: 10%;*/
-  /*border: 2px solid black;*/
-}
-
 .align-right {
   text-align: right;
 }
@@ -281,27 +275,28 @@ button.slick-next {
 
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-  .container {
-    width: 800px;
-  }
-}
-
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
   .container {
     width: 1152px;
   }
+
+  #stack {
+    height: initial;
+  }
+
+  #solder {
+    height:initial;
+  }
+
+  #skills {
+    height: initial;
+  }
+
+  div.eight.columns {
+    font-size: 100%;
+  }
 }
-
-
-
-
-
-
-
-
 
 .slide {
   overflow: hidden;
