@@ -27,6 +27,23 @@ h5{
   height: 100vh;
 }
 
+.slick-slide .container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -transform: translateY(-50%);
+}
+
+ul.slick-dots {
+  position: absolute;
+  bottom: 10px;
+}
+
+
+
 @media (min-width: 1120px) {
 
   .slick-slide .container {
@@ -90,6 +107,10 @@ i:hover {
   text-align: left;
 }
 
+#skills {
+  max-height: 30vh;
+}
+
 .contact-icons {
   background-color: steeblue;
 }
@@ -109,12 +130,22 @@ a {
 }
 
 button.slick-prev {
-  left: 10px;
+  left: 5%;
 }
 
 button.slick-next {
-  right: 10px;
+  right: 5%;
 }
+
+.slick-prev:before {
+  color: steelblue;
+}
+
+.slick-next:before {
+  color: steelblue;
+}
+
+
 
 .container {
   vertical-align: middle;
@@ -123,20 +154,112 @@ button.slick-next {
   /*border: 4px solid black;*/
   padding-left: 6px;
   padding-right: 6px; }
-  .container:before, .container:after {
-    content: " ";
-    display: table; }
-  .container:after {
-    clear: both; }
-  @media (min-width: 768px) {
-    .container {
-      width: 700px; } }
-  @media (min-width: 992px) {
-    .container {
-      width: 900px; } }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1152px; } }
+
+.container:before, .container:after {
+  content: " ";
+  display: table; }
+.container:after {
+  clear: both; }
+
+
+/*@media (min-width: 768px) {
+  .container {
+    width: 700px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 900px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1152px; } }*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .container {
+    width: 260px;
+  }  
+  .slick-slide img{
+    display: block;
+    width: 20em;
+    float: right;
+  }  
+
+  #skills {
+    display: none;
+  }  
+
+  div.eight.columns {
+    font-size: 0.8em;
+  }
+
+  .caveat {
+    display: none;
+  }
+
+  img.project-images {
+    display: none;
+  }
+
+  img.project-icon {
+    width: auto;
+    float: none;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  img.qrcode, .qrcode {
+    display: none;
+  }
+
+
+
+  .fa-5x {
+    font-size: 3em;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .container {
+    width: 400px;
+  }
+  .slick-slide img{
+    display: block;
+  }  
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .container {
+    width: 700px;
+  }
+  .slick-slide img{
+    display: block;
+  }  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .container {
+    width: 900px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .container {
+    width: 1152px;
+  }
+}
+
+
+
+
+
+
+
+
 
 .slide {
   overflow: hidden;
