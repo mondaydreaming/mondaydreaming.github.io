@@ -18,6 +18,10 @@ h1,h2,p{
   font-weight:300;
 }
 
+h2 {
+  line-height: 1.5
+}
+
 h5{
   margin-bottom:0em;
   margin-top:0em;
@@ -39,7 +43,7 @@ h5{
 
 ul.slick-dots {
   position: absolute;
-  bottom: 10px;
+  bottom: 5vh;
 }
 
 
@@ -180,7 +184,7 @@ button.slick-next {
   .slick-slide img{
     display: block;
     width: 20em;
-    float: right;
+    /*float: right;*/
   }  
 
   #skills {
@@ -201,18 +205,30 @@ button.slick-next {
 
   img.project-icon {
     width: auto;
+    height: 7em;
     float: none;
   }
 
   p {
     text-align: justify;
+    font-size: 90%;
   }
 
   img.qrcode, .qrcode {
     display: none;
   }
+  
+  hr {
+    margin: 0px;
+  }
 
+  h3 {
+    margin: 0px;
+  }
 
+  h5 {
+    font-size: 1.4rem;
+  }
 
   .fa-5x {
     font-size: 3em;
