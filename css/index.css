@@ -176,6 +176,10 @@ button.slick-next {
     /*float: right;*/
   }  
 
+  #solder {
+    height:12em;
+  }
+
   #droplet {
     height: 4em;
   }
@@ -246,10 +250,6 @@ button.slick-next {
 
   #stack {
     height: 12em;
-  }
-
-  #solder {
-    height:12em;
   }
 
   .caveat {
