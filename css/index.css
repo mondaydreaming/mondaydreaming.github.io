@@ -277,6 +277,10 @@ button.slick-next {
   #skills {
     height: 16vh;
   }
+  
+  .about {
+    font-size: 100%;
+  }
 
 }
 
@@ -299,10 +303,6 @@ button.slick-next {
   }
 
   div.eight.columns {
-    font-size: 100%;
-  }
-
-  .about {
     font-size: 100%;
   }
 }
