@@ -11,7 +11,7 @@ body {
   font-family: 'Signika', sans-serif;
   max-height: 100vh;
   max-width: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 h1,h2,p{
