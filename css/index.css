@@ -183,10 +183,6 @@ button.slick-next {
     /*float: right;*/
   }  
 
-  #skills {
-    display: none;
-  }  
-
   #droplet {
     height: 4em;
   }
@@ -244,30 +240,51 @@ button.slick-next {
   }
 }
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-  .container {
-    width: 400px;
-  }
-  .slick-slide img{
-    display: block;
-  }  
-}
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
   .container {
-    width: 700px;
+    width: 550px;
   }
   .slick-slide img{
     display: block;
   }  
+
+  #stack {
+    height: 12em;
+  }
+
+  #solder {
+    height:12em;
+  }
+
+  .caveat {
+    display:initial;
+  }
+
+  h1,h2{
+    font-weight:300;
+    font-size: 3.6rem;
+  }
+
+  p {
+    font-size: 100%;
+  }
+
+  hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+  }
+
+  #skills {
+    height: 16vh;
+  }
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
   .container {
-    width: 900px;
+    width: 800px;
   }
 }
 
