@@ -69,7 +69,6 @@ p{margin-bottom:1em;}
 }
 
 i {
-  padding-right: 1em;
   color: steelblue;
 }
 
@@ -231,6 +230,8 @@ button.slick-next {
 
   .fa-5x {
     font-size: 3em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
   }
 }
 
