@@ -41,11 +41,6 @@ h5{
   -transform: translateY(-50%);
 }
 
-ul.slick-dots {
-  position: absolute;
-  bottom: 5vh;
-}
-
 
 
 @media (min-width: 1120px) {
@@ -106,7 +101,7 @@ i:hover {
 }
 
 .drawing {
-  max-height: 50vh;
+  max-height: 30vh;
   width: auto;
   text-align: left;
 }
@@ -183,7 +178,7 @@ button.slick-next {
   }  
   .slick-slide img{
     display: block;
-    width: 20em;
+    /*width: 20em;*/
     /*float: right;*/
   }  
 
@@ -228,6 +223,11 @@ button.slick-next {
 
   h5 {
     font-size: 1.4rem;
+  }
+
+  ul.slick-dots {
+    position: absolute;
+    bottom: 2.5vh;
   }
 
   .fa-5x {
